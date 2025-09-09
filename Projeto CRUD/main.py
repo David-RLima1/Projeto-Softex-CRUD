@@ -4,6 +4,7 @@ from listar import listar_livros
 from alugar import alugar_livro
 from devolver import devolver_livro
 from busca import buscar_por_nome
+from remover import *
 
 def main():
    
@@ -22,6 +23,8 @@ def main():
             case '5':
                 buscar_por_nome()
             case '6':
+                remover()
+            case '7':
                 print("Obrigado por usar o sistema! Até logo.")
                 break
             case _: 
