@@ -1,5 +1,8 @@
 from menu import exibir_menu
-from operacoes_crud import adicionar_livro, listar_livros, alugar_livro, devolver_livro
+from adicionar import adicionar_livro
+from listar import listar_livros
+from alugar import alugar_livro
+from devolver import devolver_livro
 from busca import buscar_por_nome
 
 def main():
