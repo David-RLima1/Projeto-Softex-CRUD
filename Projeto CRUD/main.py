@@ -3,7 +3,7 @@ from adicionar import adicionar_livro
 from listar import listar_livros
 from alugar import alugar_livro
 from devolver import devolver_livro
-from busca import buscar_por_nome
+from editar import editar_livro
 from remover import *
 
 def main():
@@ -21,9 +21,9 @@ def main():
             case '4':
                 devolver_livro()
             case '5':
-                buscar_por_nome()
-            case '6':
                 remover()
+            case '6':
+                editar_livro()
             case '7':
                 print("Obrigado por usar o sistema! Até logo.")
                 break
